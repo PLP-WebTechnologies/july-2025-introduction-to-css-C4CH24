@@ -1,0 +1,79 @@
+
+        /* A simple CSS reset for consistency across browsers */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f4f8; /* A light background color */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* The main container to hold all content */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 40px; /* Internal spacing from content to the border */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 20px; /* External spacing from the edge of the body */
+        }
+
+        /* Heading styling */
+        h1, h2 {
+            color: #2c3e50;
+            margin-bottom: 20px; /* Space below the heading */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px; /* Extra space above the subheading */
+        }
+
+        /* Paragraph styling */
+        p {
+            margin-bottom: 20px; /* Space below each paragraph */
+        }
+
+        /* Demonstration of the Box Model on a card-like element */
+        .card {
+            background-color: #ecf0f1;
+            padding: 30px; /* Internal space for content inside the card */
+            border: 2px solid #bdc3c7; /* A visible border to define the box edge */
+            margin: 40px 0; /* External spacing above and below the card */
+            border-radius: 8px;
+        }
+
+        /* Styling for the button */
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 24px; /* Internal space inside the button */
+            border-radius: 25px;
+            border: 2px solid transparent; /* A transparent border for the hover effect */
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+            border-color: #1a6088;
+        }
+    
